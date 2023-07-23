@@ -1,5 +1,7 @@
-mkdir -p /opt/alist/data/
-/main
+#!/bin/bash
 
-cd /opt/alist
-./alist -conf data/config.json -docker
+chown -R ${PUID}:${PGID} /opt/alist/
+
+umask ${UMASK}
+
+exec su-exec ${PUID}:${PGID} ./alist server --no-prefix
