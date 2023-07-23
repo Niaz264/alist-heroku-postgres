@@ -1,5 +1,5 @@
 {
-  "name": "Alist v2",
+  "name": "Alist v3",
   "description": "Alist on Heroku",
   "keywords": ["Alist"],
   "env": {
@@ -22,7 +22,7 @@
     }
   ],
   "website": "https://github.com/Xhofe/alist",
-  "repository": "https://github.com/alist-org/alist-heroku-postgres",
+  "repository": "https://github.com/Niaz264/alist-heroku-postgres",
   "logo": "https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg",
   "stack": "container"
 }
